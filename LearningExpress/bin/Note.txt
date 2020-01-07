@@ -1,0 +1,8 @@
+The bin contains executable files which define various ways to start up the Node JS app. 
+It is common convention to store executable file in the bin folder.
+
+The www executable file uses the 'app' module of ../'app.js'.
+
+The #! (or the Shebang character) in './bin/www' is used to tell our platform where to find the specific way to interpret our executable file.    [ Syntax :- #!<user folder global to the system>/<global bin in the system>/<enviroment folder> <declaration as node executable file> ].
+
+The start and dev commands of npm have had their paths changed to './bin/www' from 'index.js' because the index.js file has been renamed to app.js and parts of the code (or more specifically app.listen()) have been moved to './bin/www'. 

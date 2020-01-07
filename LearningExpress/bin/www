@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const app = require('../app');
+const port = 3000;
+
+app.listen(
+        port,
+        () =>
+        {
+            console.log(`Listening on port :${port}.`);
+        }
+        )           //  The app.listen() has 3 arguments. 1> Port no.   2> Hostname (If there is no hostname localhost will be selected.) and an anonymous function that determines what to do if connection is made. 
