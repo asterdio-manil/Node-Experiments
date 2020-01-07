@@ -1,0 +1,16 @@
+{
+  "name": "server1",
+  "version": "1.0.0",
+  "description": "My first Node Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"My first Node Server\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Manil S. Malla",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
